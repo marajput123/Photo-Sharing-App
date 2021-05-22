@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HW07</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_Email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="str_login">Login</string>
+    <string name="str_newAccount">Create a new account</string>
+    <string name="strName">Name</string>
+    <string name="strRegister">Register</string>
+    <string name="strCancel">Cancel</string>
+    <string name="strLogout">Logout</string>
+    <string name="strTakePhoto">Take Photo</string>
+    <string name="strMyPicture">My Pictures</string>
+    <string name="strComment">Comment</string>
+    <string name="strPost">Post</string>
+</resources>

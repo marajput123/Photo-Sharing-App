@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment">
+
+    <EditText
+        android:id="@+id/registerEdit_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="@string/strName"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/registerEdit_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/registerEdit_email"
+        app:layout_constraintStart_toStartOf="@+id/registerEdit_email"
+        app:layout_constraintTop_toBottomOf="@+id/registerEdit_email" />
+
+    <EditText
+        android:id="@+id/registerEdit_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/hint_Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/registerEdit_name"
+        app:layout_constraintStart_toStartOf="@+id/registerEdit_name"
+        app:layout_constraintTop_toBottomOf="@+id/registerEdit_name" />
+
+    <Button
+        android:id="@+id/registerBtn_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/strRegister"
+        app:layout_constraintEnd_toEndOf="@+id/registerEdit_password"
+        app:layout_constraintStart_toStartOf="@+id/registerEdit_password"
+        app:layout_constraintTop_toBottomOf="@+id/registerEdit_password" />
+
+    <Button
+        android:id="@+id/registerBtn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/strCancel"
+        app:layout_constraintEnd_toEndOf="@+id/registerBtn_register"
+        app:layout_constraintTop_toBottomOf="@+id/registerBtn_register" />
+</androidx.constraintlayout.widget.ConstraintLayout>
